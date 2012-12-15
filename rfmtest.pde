@@ -1,6 +1,10 @@
 /*
  * Test tracker which sends out test strings for testing HAB listening station
  * RFM22b
+ * DL-FLDigi settings: 
+ ** 50baud
+ ** 460 shift
+ ** 8 bits, no parity, 1 stop bit
 */
 
 #include <stdio.h>
