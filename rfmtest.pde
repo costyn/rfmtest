@@ -88,8 +88,9 @@ void rtty_txbit (int bit)
 		  // low
                   radio1.write(0x073, 0x00);
 		}
-                delayMicroseconds(10000); // For 50 Baud uncomment this and the line below. 
-                delayMicroseconds(10150); // You can't do 20150 it just doesn't work as the
+                delayMicroseconds(3370); // 300 baud
+//                delayMicroseconds(10000); // For 50 Baud uncomment this and the line below. 
+//                delayMicroseconds(10150); // You can't do 20150 it just doesn't work as the
                             // largest value that will produce an accurate delay is 16383
                             // See : http://arduino.cc/en/Reference/DelayMicroseconds
  
